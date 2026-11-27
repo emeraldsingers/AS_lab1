@@ -21,6 +21,7 @@ class MainActivity : ComponentActivity() {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Column(modifier = Modifier.padding(innerPadding).padding(16.dp)) {
                         CircleBlock()
+                        SquareBlock()
                     }
                 }
             }
