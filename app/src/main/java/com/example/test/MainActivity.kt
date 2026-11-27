@@ -23,6 +23,7 @@ class MainActivity : ComponentActivity() {
                         RectangleBlock()
                         CircleBlock()
                         SquareBlock()
+                        TriangleBlock()
                     }
                 }
             }
