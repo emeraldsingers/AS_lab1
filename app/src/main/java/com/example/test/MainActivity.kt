@@ -20,7 +20,9 @@ class MainActivity : ComponentActivity() {
             TestTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Column(modifier = Modifier.padding(innerPadding).padding(16.dp)) {
+                        RectangleBlock()
                         CircleBlock()
+                        SquareBlock()
                     }
                 }
             }
